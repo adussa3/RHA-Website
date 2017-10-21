@@ -1,0 +1,80 @@
+/* #RHA-menu.navbar-dark .navbar-brand {
+    color: rgba(0, 0, 0, 1);
+} */
+
+#RHA-menu.navbar-dark {
+    font-size: 14px;
+    background-color: rgba(238, 178, 17, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#RHA-menu.navbar-dark .navbar-nav>li>a {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(238, 178, 17, 1);
+    transition: 0.5s;
+}
+#RHA-menu.navbar-dark .navbar-nav>li>a:hover,
+#RHA-menu.navbar-dark .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: #212529;
+}
+#RHA-menu.navbar-dark .navbar-nav>.active>a,
+#RHA-menu.navbar-dark .navbar-nav>.active>a:hover,
+#RHA-menu.navbar-dark .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: #212529;
+}
+#RHA-menu.navbar-dark .navbar-toggle {
+    border-color: #000000;
+}
+#RHA-menu.navbar-dark .navbar-toggle:hover,
+#RHA-menu.navbar-dark .navbar-toggle:focus {
+    background-color: #000000;
+}
+#RHA-menu.navbar-dark .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#RHA-menu.navbar-dark .navbar-toggle:hover .icon-bar,
+#RHA-menu.navbar-dark .navbar-toggle:focus .icon-bar {
+    background-color: #eeb211;
+}
+
+/******************************************************************************/
+
+/* Dropdown on Hover */
+
+#RHA-menu .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Customize Dropdown */
+
+#RHA-menu .dropdown .dropdown-menu {
+    min-width: 10rem;
+    padding: 0rem 0;
+    margin: 0;
+    font-size: 12px;
+    color: #212529;
+    background-color: #f5d376;
+    background-clip: padding-box;
+    border: 0px;
+    border-top: 2px solid rgba(0,0,0,1);
+    border-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.dropdown-item {
+    padding: 0.25rem 0.75rem; /* Originally 0.25rem 1.5rem */
+    color: #212529;
+    transition: 0.5s;
+}
+
+/* 'padding-left: 20px' creates the animation*/
+.dropdown-item:focus,
+.dropdown-item:hover {
+
+    color: white;
+    background-color: #212529;
+
+}

@@ -1,0 +1,14 @@
+#NEW.navbar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+}
+
+#NEW.navbar li,a {
+    transition: 0.5s;
+}
+
+#NEW.navbar a:hover {
+    background-color: rgba(231, 231, 231, 1);
+}

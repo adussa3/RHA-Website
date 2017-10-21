@@ -1,0 +1,38 @@
+.rha-header {
+    height: 90px;
+    background-color: #262626;
+}
+
+/*
+
+How to Vertically Align elements
+Method 1: Centering an image with line height;
+http://vanseodesign.com/css/vertical-centering/
+
+*/
+
+.rha-header img:nth-child(2) {
+    height: 60px;
+    margin: 15px 0px;
+}
+
+.rha-header p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #EEB211;
+    margin: 27px 0px;
+}
+
+/* Card */
+
+.card-body {
+    min-height: 200px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
